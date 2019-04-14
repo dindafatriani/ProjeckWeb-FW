@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px){
+html { 
+  background: url(floating-divs_02.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+header {
+    padding: 3px;
+}
+h1 {
+    font-size: 89px;
+    font-family: 'Open Sans', serif;
+    line-height: 75px;
+    padding: 10px;
+}
+ul {
+    list-style: none;
+	color:white;
+}
+.container{
+  width:400px;
+  height:400px;
+  position:absolute;
+  top:calc(60vh - 200px);
+  overflow:hidden;
+  color: white;
+}
